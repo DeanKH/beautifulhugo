@@ -24,9 +24,8 @@
          {{ if $img.desc}}data-img-desc-{{add $i 1}}="{{$img.desc}}"{{end}}
       {{end}}></div>
   {{ end }}
-   
+
   <header class="header-section {{ if $bigimg }}has-img{{ end }}">
-    <meta name="google-site-verification" content="JPRYyFOZXKNxSGtffI0qcFDVMF_E9dJeDj1LiUy_uU4" />
     {{ if $bigimg }}
       <div class="intro-header big-img">
         {{ $subtitle := $.Scratch.Get "subtitle" }}
